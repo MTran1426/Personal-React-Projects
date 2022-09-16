@@ -1,0 +1,28 @@
+.Menu-Body {
+    height: 80px;
+    margin: 20px 0;
+    padding-left: 10vw;
+    background-color: grey;
+    color: black;
+}
+
+.Menu-Body ul {
+    list-style-type: none;
+    margin: auto;
+    padding-top: 25px;
+    display: flex;
+}
+
+.Menu-Body ul li a {
+    /*margin: 20px 50px 20px 0;*/
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    border-left: solid black;
+    /*border-right: solid black;*/
+}
+
+a:hover {
+    background-color: lightgray;
+}
